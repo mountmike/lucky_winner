@@ -24,8 +24,14 @@ main {
 
 h1 {
     margin: 50px;
-    transition: 1s;
-    visibility: hidden;
+    font-size: 3em;
+    opacity: 0;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff5a5a;
+    padding: 10px;
+    transition: all 1s;
 }
 
 .main {
