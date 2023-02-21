@@ -11,8 +11,6 @@ function letsSpin() {
         winnerOutput.style.opacity = 1;
         winnerOutput.style.backgroundColor = colours[randomIndex(colours)];
       }, 4000)
-    
-  
 }
 
 let winnerOutput = document.querySelector("#luckywinner");
@@ -23,6 +21,3 @@ let colours = ["#ff1f1f", "#19e3cf", "#9e0bf3", "#15b600", "#1f26ff", "#ff5a5a",
 function randomIndex(arr) {
     return Math.floor(Math.random() * arr.length)
 }
-
-
-
